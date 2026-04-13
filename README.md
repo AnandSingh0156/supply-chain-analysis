@@ -44,6 +44,22 @@ The dataset used in this project is the Olist E-commerce Dataset, publicly avail
 
 **Note:** Only a cleaned dataset is included in this repository to keep it lightweight.
 
+## 📁 Additional Files
+
+Due to GitHub file size limitations, the cleaned dataset and trained model are not included in this repository.
+
+You can download them from the link below:
+
+🔗 https://drive.google.com/drive/folders/1tXDHhwr35LY_AE6bYe7IZ8DqPqEIQ-vE?usp=sharing
+
+After downloading, place the files in the following structure:
+
+* `data/` → cleaned dataset (`.csv` files)
+* `models/` → trained model (`delivery_model.pkl`)
+
+These files are required to run the project locally and reproduce the results.
+
+
 ## 🤖 Machine Learning
 
 A Random Forest regression model is used to predict delivery time based on features such as order date, seller information, and customer location.
