@@ -23,7 +23,7 @@ This project performs an end-to-end analysis of supply chain operations using th
 
 * Data cleaning and preprocessing
 * Exploratory Data Analysis (EDA)
-* KPI creation using SQL views
+* KPI analysis using SQL (MySQL views and queries)
 * Interactive Power BI dashboard
 * Delivery time prediction using machine learning
 
@@ -31,7 +31,7 @@ This project performs an end-to-end analysis of supply chain operations using th
 
 * `data/` → cleaned dataset
 * `notebooks/` → EDA and ML notebooks
-* `sql/` → KPI queries
+* `sql/` → KPI analysis queries and views
 * `powerbi/` → dashboard file
 * `models/` → trained ML model
 * `assets/` → dashboard screenshots
@@ -83,6 +83,10 @@ These files are required to run the project locally and reproduce the results.
    streamlit run app_streamlit.py
    ```
 
+## 🗄️ SQL Analysis
+
+SQL (MySQL) was used to create key performance indicators (KPIs) such as total orders, revenue, average delivery time, and delayed deliveries using structured queries and views.
+
 
 ## 🤖 Machine Learning
 
@@ -130,3 +134,5 @@ Web application demonstrating real-time delivery time prediction using the train
 ## 📌 Conclusion
 
 This project provides valuable insights into delivery performance and highlights key operational gaps in supply chain processes. It demonstrates how data analytics and machine learning can be used to improve logistics efficiency and customer experience.
+
+
