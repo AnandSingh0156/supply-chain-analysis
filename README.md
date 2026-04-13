@@ -59,6 +59,30 @@ After downloading, place the files in the following structure:
 
 These files are required to run the project locally and reproduce the results.
 
+## ▶️ How to Run the Project
+
+1. Clone the repository
+
+2. Download dataset and model from the provided Google Drive link
+
+3. Place files in:
+
+   * `data/` → dataset
+   * `models/` → model file
+
+4. Install dependencies:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+5. Run the Streamlit app:
+
+   ```
+   cd notebooks
+   streamlit run app_streamlit.py
+   ```
+
 
 ## 🤖 Machine Learning
 
