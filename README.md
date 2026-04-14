@@ -120,7 +120,7 @@ This visualization shows key trends and patterns identified during the EDA phase
 
 Interactive dashboard showcasing KPIs, delivery performance, and regional insights.
 
-![Dashboard](assets/dashboard.png)
+![Dashboard](assets/Supply_chain_dashboard_pdf.pdf)
 
 ---
 
